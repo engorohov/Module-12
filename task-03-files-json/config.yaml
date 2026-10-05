@@ -1,0 +1,6 @@
+version: 1
+servers:
+- name: web-1
+  port: 80
+- name: db-1
+  port: 5432
