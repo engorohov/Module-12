@@ -1,0 +1,18 @@
+[project]
+name = "task-04-requests"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Evgenii Gorohov", email = "e.n.gorohov@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+task-04-requests = "task_04_requests:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
